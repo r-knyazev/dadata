@@ -1,6 +1,6 @@
 # Client for DaData.ru
 
-Forked from https://github.com/webdeskltd/dadata.
+Forked from https://github.com/ekomobile/dadata.
 
 
 [![Build Status](https://travis-ci.org/ekomobile/dadata.svg)](https://travis-ci.org/ekomobile/dadata)
