@@ -10,7 +10,7 @@ Forked from https://github.com/ekomobile/dadata.
 
 DaData API v2
 
-Implemented [Clean](https://dadata.ru/api/clean/) and [Suggest](https://dadata.ru/api/suggest/) methods.
+Implemented [Geolocate](https://dadata.ru/api/geolocate/) method.
 
 ## Installation
 

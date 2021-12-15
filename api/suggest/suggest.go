@@ -120,7 +120,12 @@ func (a *Api) GeoIP(ctx context.Context, ip string) (result *GeoIPResponse, err 
 
 // GeoLocate try to find address by coordinates
 // see documentation on: https://dadata.ru/api/geolocate/
-func (a *Api) GeoLocate(ctx context.Context, geoLocateParams *RequestGeoLocateParams) (result *GeoIPResponse, err error) {
+func (a *Api) GeoLocate(ctx context.Context, geoLocateParams *RequestGeoLocateParams) (ret []*AddressSuggestion, err error) {
+    var result = &AddressResponse{}
     err = a.Client.Post(ctx, "geolocate/address", geoLocateParams, result)
+    if nil != err {
+        return
+    }
+    ret = result.Suggestions
     return
 }
