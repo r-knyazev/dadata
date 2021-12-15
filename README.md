@@ -14,7 +14,7 @@ Implemented [Clean](https://dadata.ru/api/clean/) and [Suggest](https://dadata.r
 
 ## Installation
 
-`go get github.com/ekomobile/dadata/v2`
+`go get github.com/r-knyazev/dadata/v2`
 
 ## Usage
 ```go
@@ -22,8 +22,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/ekomobile/dadata/v2"
-	"github.com/ekomobile/dadata/v2/api/suggest"
+	"github.com/r-knyazev/dadata/v2"
+	"github.com/r-knyazev/dadata/v2/api/suggest"
 )
 
 func DaDataExample()  {
