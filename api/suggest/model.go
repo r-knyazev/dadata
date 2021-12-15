@@ -50,8 +50,8 @@ type (
     // RequestGeoLocateParams request geo locate struct
     // see https://dadata.ru/api/geolocate/
     RequestGeoLocateParams struct {
-        Lat          float32 `json:"lat"`
-        Lon          float32 `json:"lon"`
+        Lat          float64 `json:"lat"`
+        Lon          float64 `json:"lon"`
         Count        int     `json:"count"`
         RadiusMeters int     `json:"radius_meters"`
         Language     string  `json:"language"`
